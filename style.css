@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vh;
+    height: 80vh;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#display {
+    width: 95%;
+    height: 25%;
+    background-color: red;
+    font-size: 8em;
+    border-radius: 25px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom {
+    display: flex;
+}
+.left-side {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.right-side {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.top button { 
+    height: 10vh;
+    border-radius: 25px; 
+    font-size: 4em;
+}
+
+.left-side button,
+.right-side button {
+    width: 15vh;
+    height: 12vh;
+    border-radius: 25px;
+    font-size: 4em;
+}
+
